@@ -26,6 +26,7 @@ public class BaseTest extends CommonPageCMS {
       } else {
          driver.manage().window().maximize();
 	   System.out.println("Browser Maximized");
+	   System.out.println("this is max");
       }
       DriverManager.setDriver(driver);
 	  System.out.println("Driver Setup Done");
